@@ -1,6 +1,6 @@
 {
   "name": "rluders-semantic-release-test",
-  "version": "0.0.25",
+  "version": "0.0.0-development",
   "main": "src/index.js",
   "author": "Ricardo Lüders <rluders@redhat.com>",
   "license": "MIT",
