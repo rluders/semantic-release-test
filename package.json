@@ -5,7 +5,7 @@
   "author": "Ricardo Lüders <rluders@redhat.com>",
   "license": "MIT",
   "scripts": {
-    "semantic-release": "semantic-release --branches main",
+    "semantic-release": "semantic-release",
     "commit": "cz"
   },
   "repository": {
