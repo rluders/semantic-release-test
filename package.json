@@ -1,7 +1,24 @@
 {
   "name": "semantic-release-test",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "main": "src/index.js",
   "author": "Ricardo Lüders <rluders@redhat.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "semantic-release": "semantic-release",
+    "commit": "cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rluders/semantic-release-test.git"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0",
+    "semantic-release": "^19.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
