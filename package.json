@@ -1,0 +1,7 @@
+{
+  "name": "semantic-release-test",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Ricardo Lüders <rluders@redhat.com>",
+  "license": "MIT"
+}
